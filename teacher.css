@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Siliguri');
+/* font-family: 'Bebas Neue', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Oswald', sans-serif;
+
+*/
+/* OLD HEADER */
+*{
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+  padding:0;
+font-family: 'Oswald', sans-serif;
+background:  white;
+}
+.headbar{
+  background-color:black;
+  height:120px;
+  width:1030px;
+  display:flex;
+  justify-content: space-around;
+}
+.headbar .image-bar{
+  text-align: center;
+  padding:40px;
+}
+.headbar div h2{
+font-family: 'Bebas Neue', sans-serif;
+font-size: 60px;
+color:white;
+text-align: center;
+margin-bottom: 18px;
+}
+/* NAVBAR */
+
+nav{
+  background: black;
+  height: 80px;
+  width: 1030px;
+  
+}
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  background: #1b9bff;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+
+
+
+
+
+
+/*
+nav {
+  background-color: black;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  width:1030px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+
+
+/*NAVBAR ENDS*/
+
+/*Arif Sir*/
+
+.sirs{
+  padding:60px;
+  
+}
+.arif-sir{
+  border: black 4px solid;
+  display:flex;
+  padding:50px;
+  margin-left: 20px
+}
+.arif-sir .arif-sir-image{
+  padding:20px;
+}
+.arif-sir .arif-sir-text{
+  
+ 
+}
+.arif-sir .arif-sir-text h2{
+  
+  font-size: 30px;
+  font-weight: bold;
+  
+}
+.arif-sir .arif-sir-text p{
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 30px;
+}
+
+/*Arif Sir ends */
+
+
+
+
+
+
+
+
+
+/*Footer*/
+.footer{
+  background: dimgray;
+  height:300px;
+  width:1030px;
+  position: absolute ;
+}
+.footer .top-footer{
+   
+   color:white;
+   text-align: center;
+   margin-top: 17px;
+   
+}
+.footer .top-footer h1{
+  padding-top:20px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 35px;
+}
+.footer .top-footer p{
+  font-family: 'Kanit', sans-serif;
+  color;whitesmoke;
+}
+.footer .bottom-footer{
+  
+ text-align: center;
+}
+.footer .bottom-footer .link{
+ 
+}
+.footer .bottom-footer .link a{
+  text-decoration: none;
+  background: blue;
+  color:white;
+  border: black solid 3px;
+}
+.footer .bottom-footer .link .fb{
+  background:blue;
+  color:white;
+}
+.footer .bottom-footer .link .yt{
+  color:white;
+  background: red;
+}
+
+/*End of footer*/

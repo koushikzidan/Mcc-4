@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Siliguri');
+/* font-family: 'Bebas Neue', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Oswald', sans-serif;
+
+*/
+*{
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  margin:0;
+  padding:0;
+font-family: 'Oswald', sans-serif;
+background:  white;
+}
+.headbar{
+  background-color:black;
+  height:120px;
+  width:1030px;
+  display:flex;
+  justify-content: space-around;
+}
+.headbar .image-bar{
+  text-align: center;
+  padding:40px;
+}
+.headbar div h2{
+font-family: 'Bebas Neue', sans-serif;
+font-size: 60px;
+color:white;
+text-align: center;
+margin-bottom: 18px;
+}
+.header{
+  background:black;
+}
+/* NAVBAR */
+
+nav{
+  background: black;
+  height: 80px;
+  width: 1030px;
+}
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  background: #1b9bff;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+
+
+
+
+
+
+/*
+nav {
+  background-color: black;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  width:1030px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+
+
+/*NAVBAR ENDS*/
+.service-top{
+  width:100px;
+  height:auto;
+  background: #233147;
+  border: solid 6px #1a1245;
+  outline: #3716a1 solid 3px;
+  color:white;
+  text-align: center;
+  text-decoration: none;
+}
+.
+
+}
+/*SERVICE SECTION
+.service-top  p{
+  font-family: font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  
+  
+}
+.service-top p:hover{
+  color:blue;
+}
+.service-top:hover{
+  background: whitesmoke;
+}
+
+/*first body bar*/
+.first-body-bar{
+  
+}
+.first-body-bar .first-body-image{
+  margin-right: 20px;
+}
+
+/*Second Body bar*/
+
+.second-body-bar .second-body-image{
+  padding-left: 212px;
+  padding-right: 70px;
+  margin-top: 100px;
+
+}
+/*FIRST CAMPUS*/
+
+.campus-section{
+  display:flex;
+  justify-content:center;
+}
+.campus-section .first-campus-image{
+  margin-top: 150px;
+  margin-left: 25px;
+}
+.campus-section .first-campus-text{
+  margin-top: 150px;
+  padding-left: 60px;
+  
+  
+}
+.campus-section .first-campus-text h1{
+  text-align: center;
+  text-align: center;
+  background:linen;
+/*  font-family: 'AdorshoLipi', sans-serif;*/
+/*font-family: 'Kalpurush', sans-serif;*/
+font-family: 'Mukti', sans-serif;
+ /* font-family: 'CharuChandan3D', sans-serif; */
+}
+.campus-section .first-campus-text p{
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: bold;
+  
+}
+/*END OF FIRST CAMPUS*/
+
+/*SECOND CAMPUS*/
+
+.campus-section .second-campus-text h1{
+  text-align: center;
+  background-color: linen;
+  font-family: 'Mukti', sans-serif;
+  
+}
+.campus-section .second-campus-text{
+  padding: 30px;
+}
+.campus-section .second-campus-text p{
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: bold;
+  
+}
+
+/*end of campus section*/
+/* HEADMASTER SECTION*/
+.headmasters{
+  display:flex;
+  justify-content:space-around;
+  margin-left:15;
+}
+ 
+.headmasters .all-headmasters{
+  background:
+  #ffedff;
+  border: solid 6px #800000;
+  padding: 20px;
+  
+  
+}
+.headmasters .all-headmasters h3{
+    font-family: 'CharuChandan3D', sans-serif; 
+    text-align: center;
+    background: #282166;
+    color:white;
+    text-shadow: 4px;
+    
+    
+}
+.headmasters .all-headmasters p{
+  font-family: 'AdorshoLipi', sans-serif;
+  font-weight: bold;
+}
+.headmasters .all-headmasters h2{
+  font-family: 'Mukti', sans-serif;
+}
+
+.headmasters .headmaster-chairman{
+  
+}
+
+.headmasters .headmaster-headsir{
+  
+  
+}
+
+/* End of Headmaster Section*/
+/* Headmaster's meassge start*/
+.headmasters-massage{
+  border: 6px black solid;
+  margin-left:30px;
+}
+.headmasters-massage .first-massage-image {
+  padding:40px;
+  margin-left: 45px;
+  
+}
+.headmasters-massage .massage-text{
+  padding: 30px;
+ text-align: center;
+ margin-left:40px;
+ background-image: url(/images/bg-2.jpg);
+}
+.headmasters-massage .massage-text p{
+  font-family: 'AdorshoLipi', sans-serif;
+ font-weight: 130px;
+ text-align: center;
+}
+.headmasters-massage .massage-text p span{
+  font-size: 25px;
+  font-weight:bolder;
+}
+
+.theme-song{
+  text-align: center;
+}
+.theme-song h1{
+  font-family: 'Kanit', sans-serif;
+
+}
+.theme-song p{
+font-family: 'Oswald', sans-serif;
+}
+
+/*End of theme song*/
+ 
+/*OATH*/
+.oath{
+  padding:60px;
+  border: solid black 4px;
+  margin-left:35px;
+}
+
+.oath .oath-h1 h1{
+   background:darkred;
+   color:white;
+   text-align: center;
+  
+}
+.oath .oath-ol ol li{
+  text-align: center;
+  background: antiquewhite;
+  border: solid 2px gray;
+}
+/* end of oath */
+/*Notw text*/
+.note-text{
+  padding:40px;
+}
+.note-text h1 span{
+  font-weight: bold;
+  color:red;
+}
+.note-text h1{
+  
+}
+/*End of note text */
+
+/*map*/
+.map{
+  text-align: center;
+}
+.map .main-map iframe{
+  border: 5px black solid;
+}
+.map .text-map p{
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+}
+
+/*end of map*/
+/*Footer*/
+.footer{
+  background: dimgray;
+  height:300px;
+  width:1030px;
+  position: absolute ;
+}
+.footer .top-footer{
+   
+   color:white;
+   text-align: center;
+   margin-top: 17px;
+   
+}
+.footer .top-footer h1{
+  padding-top:20px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 35px;
+}
+.footer .top-footer p{
+  font-family: 'Kanit', sans-serif;
+  color;whitesmoke;
+}
+.footer .bottom-footer{
+  
+ text-align: center;
+}
+.footer .bottom-footer .link{
+ 
+}
+.footer .bottom-footer .link a{
+  text-decoration: none;
+  background: blue;
+  color:white;
+  border: black solid 3px;
+}
+.footer .bottom-footer .link .fb{
+  background:blue;
+  color:white;
+}
+.footer .bottom-footer .link .yt{
+  color:white;
+  background: red;
+}
+
+/*End of footer*/
