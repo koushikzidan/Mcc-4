@@ -39,9 +39,9 @@ margin-bottom: 18px;
 /* NAVBAR */
 
 nav{
-  background: black;
+  background: red;
   height: 80px;
-  width: 1030px;
+
 }
 label.logo{
   color: white;
